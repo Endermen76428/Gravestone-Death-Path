@@ -1,0 +1,11 @@
+{
+  "materials": {
+    "version": "1.0.0",
+    "gravestone_death_path_reaper_body:npc": {
+      "+defines": [ "USE_UV_ANIM" ]
+    },
+    "gravestone_death_path_reaper_eyes:creaking_eyes": {
+      "+defines": [ "USE_UV_ANIM" ]
+    }
+  }
+}

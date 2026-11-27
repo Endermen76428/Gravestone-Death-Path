@@ -1,0 +1,250 @@
+## --------------------------------
+### Block
+## --------------------------------
+
+## Akinari
+tile.gravestone_death_path:gravestone_akinari_dummy.name=Lápide com Cabeça do Akinari
+tile.gravestone_death_path:gravestone_end_akinari_dummy.name=Lápide do End com Cabeça do Akinari
+tile.gravestone_death_path:gravestone_nether_akinari_dummy.name=Lápide do Nether com Cabeça do Akinari
+## Akirasky2663
+tile.gravestone_death_path:gravestone_akirasky2663.name=Lápide com Cabeça do Akirasky2663
+tile.gravestone_death_path:gravestone_end_akirasky2663.name=Lápide do End com Cabeça do Akirasky2663
+tile.gravestone_death_path:gravestone_nether_akirasky2663.name=Lápide do Nether com Cabeça do Akirasky2663
+## Aniralacradx
+tile.gravestone_death_path:gravestone_aniralacradx.name=Lápide com Cabeça da Aniralacradx
+tile.gravestone_death_path:gravestone_end_aniralacradx.name=Lápide do End com Cabeça da Aniralacradx
+tile.gravestone_death_path:gravestone_nether_aniralacradx.name=Lápide do Nether com Cabeça da Aniralacradx
+## Blaze
+tile.gravestone_death_path:gravestone_blaze.name=Lápide com Cabeça de Blaze
+tile.gravestone_death_path:gravestone_end_blaze.name=Lápide do End com Cabeça de Blaze
+tile.gravestone_death_path:gravestone_nether_blaze.name=Lápide do Nether com Cabeça de Blaze
+## Bogged
+tile.gravestone_death_path:gravestone_bogged.name=Lápide com Crânio de Equeleto Atolado
+tile.gravestone_death_path:gravestone_end_bogged.name=Lápide do End com Crânio de Equeleto Atolado
+tile.gravestone_death_path:gravestone_nether_bogged.name=Lápide do Nether com Crânio de Equeleto Atolado
+## Breeze
+tile.gravestone_death_path:gravestone_breeze.name=Lápide com Cabeça de Breeze
+tile.gravestone_death_path:gravestone_end_breeze.name=Lápide do End com Cabeça de Breeze
+tile.gravestone_death_path:gravestone_nether_breeze.name=Lápide do Nether com Cabeça de Breeze
+## Cave Spider
+tile.gravestone_death_path:gravestone_cave_spider.name=Lápide com Cabeça de Aranha da Caverna
+tile.gravestone_death_path:gravestone_end_cave_spider.name=Lápide do End com Cabeça de Aranha da Caverna
+tile.gravestone_death_path:gravestone_nether_cave_spider.name=Lápide do Nether com Cabeça de Aranha da Caverna
+## Creaking
+tile.gravestone_death_path:gravestone_creaking.name=Lápide com Cabeça de Rangente
+tile.gravestone_death_path:gravestone_end_creaking.name=Lápide do End com Cabeça de Rangente
+tile.gravestone_death_path:gravestone_nether_creaking.name=Lápide do Nether com Cabeça de Rangente
+## Creeper
+tile.gravestone_death_path:gravestone_creeper.name=Lápide com Cabeça de Creeper
+tile.gravestone_death_path:gravestone_end_creeper.name=Lápide do End com Cabeça de Creeper
+tile.gravestone_death_path:gravestone_nether_creeper.name=Lápide do Nether com Cabeça de Creeper
+## Default
+tile.gravestone_death_path:gravestone.name=Lápide
+tile.gravestone_death_path:gravestone_end.name=Lápide do End
+tile.gravestone_death_path:gravestone_nether.name=Lápide do Nether
+## Enderman
+tile.gravestone_death_path:gravestone_enderman.name=Lápide com Cabeça de Enderman
+tile.gravestone_death_path:gravestone_end_enderman.name=Lápide do End com Cabeça de Enderman
+tile.gravestone_death_path:gravestone_nether_enderman.name=Lápide do Nether com Cabeça de Enderman
+## Endermen76428
+tile.gravestone_death_path:gravestone_endermen76428.name=Lápide com Cabeça do Endermen76428
+tile.gravestone_death_path:gravestone_end_endermen76428.name=Lápide do End com Cabeça do Endermen76428
+tile.gravestone_death_path:gravestone_nether_endermen76428.name=Lápide do Nether com Cabeça do Endermen76428
+## Evoker
+tile.gravestone_death_path:gravestone_evoker.name=Lápide com Cabeça de Invocador
+tile.gravestone_death_path:gravestone_end_evoker.name=Lápide do End com Cabeça de Invocador
+tile.gravestone_death_path:gravestone_nether_evoker.name=Lápide do Nether com Cabeça de Invocador
+## Ghast
+tile.gravestone_death_path:gravestone_ghast.name=Lápide com Cabeça de Ghast
+tile.gravestone_death_path:gravestone_end_ghast.name=Lápide do End com Cabeça de Ghast
+tile.gravestone_death_path:gravestone_nether_ghast.name=Lápide do Nether com Cabeça de Ghast
+## Hoglin
+tile.gravestone_death_path:gravestone_hoglin.name=Lápide com Cabeça de Hoglin
+tile.gravestone_death_path:gravestone_end_hoglin.name=Lápide do End com Cabeça de Hoglin
+tile.gravestone_death_path:gravestone_nether_hoglin.name=Lápide do Nether com Cabeça de Hoglin
+## Iron Golem
+tile.gravestone_death_path:gravestone_iron_golem.name=Lápide com Cabeça de Golem de Ferro
+tile.gravestone_death_path:gravestone_end_iron_golem.name=Lápide do End com Cabeça de Golem de Ferro
+tile.gravestone_death_path:gravestone_nether_iron_golem.name=Lápide do Nether com Cabeça de Golem de Ferro
+## Piglin
+tile.gravestone_death_path:gravestone_piglin.name=Lápide com Cabeça de Piglin
+tile.gravestone_death_path:gravestone_end_piglin.name=Lápide do End com Cabeça de Piglin
+tile.gravestone_death_path:gravestone_nether_piglin.name=Lápide do Nether com Cabeça de Piglin
+## Piglin Brute
+tile.gravestone_death_path:gravestone_piglin_brute.name=Lápide com Cabeça de Piglin Bruto
+tile.gravestone_death_path:gravestone_end_piglin_brute.name=Lápide do End com Cabeça de Piglin Bruto
+tile.gravestone_death_path:gravestone_nether_piglin_brute.name=Lápide do Nether com Cabeça de Piglin Bruto
+## Player
+tile.gravestone_death_path:gravestone_player.name=Lápide com Cabeça de Jogador
+tile.gravestone_death_path:gravestone_end_player.name=Lápide do End com Cabeça de Jogador
+tile.gravestone_death_path:gravestone_nether_player.name=Lápide do Nether com Cabeça de Jogador
+## Ravager
+tile.gravestone_death_path:gravestone_ravager.name=Lápide com Cabeça de Devastador
+tile.gravestone_death_path:gravestone_end_ravager.name=Lápide do End com Cabeça de Devastador
+tile.gravestone_death_path:gravestone_nether_ravager.name=Lápide do Nether com Cabeça de Devastador
+## Replay1977
+tile.gravestone_death_path:gravestone_replay1977.name=Lápide com Cabeça do Replay1977
+tile.gravestone_death_path:gravestone_end_replay1977.name=Lápide do End com Cabeça do Replay1977
+tile.gravestone_death_path:gravestone_nether_replay1977.name=Lápide do Nether com Cabeça do Replay1977
+## Shulker
+tile.gravestone_death_path:gravestone_shulker.name=Lápide com Cabeça de Shulker
+tile.gravestone_death_path:gravestone_end_shulker.name=Lápide do End com Cabeça de Shulker
+tile.gravestone_death_path:gravestone_nether_shulker.name=Lápide do Nether com Cabeça de Shulker
+## Skeleton
+tile.gravestone_death_path:gravestone_skeleton.name=Lápide com Crânio de Equeleto
+tile.gravestone_death_path:gravestone_end_skeleton.name=Lápide do End com Crânio de Equeleto
+tile.gravestone_death_path:gravestone_nether_skeleton.name=Lápide do Nether com Crânio de Equeleto
+## Slime
+tile.gravestone_death_path:gravestone_slime.name=Lápide com Cabeça de Slime
+tile.gravestone_death_path:gravestone_end_slime.name=Lápide do End com Cabeça de Slime
+tile.gravestone_death_path:gravestone_nether_slime.name=Lápide do Nether com Cabeça de Slime
+## Spider
+tile.gravestone_death_path:gravestone_spider.name=Lápide com Cabeça de Aranha
+tile.gravestone_death_path:gravestone_end_spider.name=Lápide do End com Cabeça de Aranha
+tile.gravestone_death_path:gravestone_nether_spider.name=Lápide do Nether com Cabeça de Aranha
+## StrangeTNT27
+tile.gravestone_death_path:gravestone_strangetnt27.name=Lápide com Cabeça do StrangeTNT27
+tile.gravestone_death_path:gravestone_end_strangetnt27.name=Lápide do End com Cabeça do StrangeTNT27
+tile.gravestone_death_path:gravestone_nether_strangetnt27.name=Lápide do Nether com Cabeça do StrangeTNT27
+## Stray
+tile.gravestone_death_path:gravestone_stray.name=Lápide com Crânio de Equeleto Nômade
+tile.gravestone_death_path:gravestone_end_stray.name=Lápide do End com Crânio de Equeleto Nômade
+tile.gravestone_death_path:gravestone_nether_stray.name=Lápide do Nether com Crânio de Equeleto Nômade
+## Wither Skeleton
+tile.gravestone_death_path:gravestone_wither_skeleton.name=Lápide com Crânio de Equeleto Wither
+tile.gravestone_death_path:gravestone_end_wither_skeleton.name=Lápide do End com Crânio de Equeleto Wither
+tile.gravestone_death_path:gravestone_nether_wither_skeleton.name=Lápide do Nether com Crânio de Equeleto Wither
+## Xuxinrui5201314
+tile.gravestone_death_path:gravestone_xuxinrui5201314.name=Lápide com Cabeça da Xuxinrui5201314
+tile.gravestone_death_path:gravestone_end_xuxinrui5201314.name=Lápide do End com Cabeça da Xuxinrui5201314
+tile.gravestone_death_path:gravestone_nether_xuxinrui5201314.name=Lápide do Nether com Cabeça da Xuxinrui5201314
+## Xxxx41523
+tile.gravestone_death_path:gravestone_xxxx41523.name=Lápide com Cabeça do Xxxx41523
+tile.gravestone_death_path:gravestone_end_xxxx41523.name=Lápide do End com Cabeça do Xxxx41523
+tile.gravestone_death_path:gravestone_nether_xxxx41523.name=Lápide do Nether com Cabeça do Xxxx41523
+## Zombie
+tile.gravestone_death_path:gravestone_zombie.name=Lápide com Cabeça de Zumbie
+tile.gravestone_death_path:gravestone_end_zombie.name=Lápide do End com Cabeça de Zumbie
+tile.gravestone_death_path:gravestone_nether_zombie.name=Lápide do Nether com Cabeça de Zumbie
+## Zombie Piglin
+tile.gravestone_death_path:gravestone_zombie_pigman.name=Lápide com Cabeça de Piglin Zumbie
+tile.gravestone_death_path:gravestone_end_zombie_pigman.name=Lápide do End com Cabeça de Piglin Zumbie
+tile.gravestone_death_path:gravestone_nether_zombie_pigman.name=Lápide do Nether com Cabeça de Piglin Zumbie
+
+block.warn.gravestone_death_path:gravestone.collect.other_owner=§cEssa lápide não é sua, não é possivel abrí-la.
+block.warn.gravestone_death_path:gravestone.already_collected=Essa Lápide já foi celetada!
+block.warn.gravestone_death_path:collect.key.need_key=§cVocê precisa de uma Chave para abrir essa gravestone.
+block.warn.gravestone_death_path:collect.key.other_gravestone=§cEssa chave não pertence a essa Gravestone!
+
+
+
+## --------------------------------
+### Commands
+## --------------------------------
+
+commands.gravestone_death_path.config=Abra as Configurações Pessoais
+commands.gravestone_death_path.config_adm=Abra as Configurações Globais
+commands.gravestone_death_path:skill=Abra seus Conhecimentos da Morte
+
+
+
+## --------------------------------
+### Dimensions
+## --------------------------------
+
+dimension.gravestone_death_path:die1=Você morreu em %1 no 
+dimension.gravestone_death_path:die2=Use a chave e siga sua Morte!
+dimension.gravestone_death_path:overworld=<§2Mundo Superior§r> - 
+dimension.gravestone_death_path:nether=<§4Nether§r> - 
+dimension.gravestone_death_path:the_end=<§5Fim§r> - 
+
+
+
+## --------------------------------
+### Entity
+## --------------------------------
+
+entity.gravestone_death_path:gravestone_entity.name=Lápide
+entity.gravestone_death_path:ghost.name=Ceifador
+
+
+
+## --------------------------------
+### Items
+## --------------------------------
+
+## Key
+item.gravestone_death_path:gravestone_key=Chave da Lápide
+item.gravestone_death_path:gravestone_key_tp=Chave da Lápide Encantada
+
+item.warn.gravestone_death_path:key.corrupted=§cChave da Lápide Corrompida.
+item.warn.gravestone_death_path:key.invalid_owner=§cVocê não é o dono dessa chave.
+item.warn.gravestone_death_path:key.teleport_disabled=§cO teleport foi desativado nas configurações.
+
+
+
+## --------------------------------
+### Item Catalog
+## --------------------------------
+
+gravestone_death_path:itemGroup.name.gravestones=Lápides do Mundo Superior
+gravestone_death_path:itemGroup.name.gravestones_nether=Lápides do Nether
+gravestone_death_path:itemGroup.name.gravestones_end=Lápides do Fim
+
+
+
+## --------------------------------
+### Notifications
+## --------------------------------
+
+notification.gravestone_death_path:death_knowledge.incrised=Você recebeu §e%1§r de experiência do conhecimento da morte.
+
+
+
+## --------------------------------
+### UI
+## --------------------------------
+
+## Config
+ui.gravestone_death_path:config.title=Configurações
+ui.gravestone_death_path:config.drop_gravestone=Soltar Gravestone ao coletar
+ui.gravestone_death_path:config.path_type=Tipo do Death Path
+ui.gravestone_death_path:config.path_type.random_flame=Chama aleatório
+ui.gravestone_death_path:config.path_type.random_flame_reaper=Chama aleatório com Ceifador
+ui.gravestone_death_path:config.path_type.dark_flame=Chama Escura
+ui.gravestone_death_path:config.path_type.dark_flame_reaper=Chama Escura com Ceifador
+ui.gravestone_death_path:config.path_type.basic_flame=Chama Básica
+ui.gravestone_death_path:config.path_type.basic_flame_reaper=Chama Básica com Ceifador
+
+ui.warn.gravestone_death_path:config.saved=Configurações Salvas
+
+## Config Admin
+ui.gravestone_death_path:config.admin.title=Admin Configurações
+ui.gravestone_death_path:config.admin.allow_teleport=Permitir teleporte
+ui.gravestone_death_path:config.admin.need_key_to_open=Precisa da chave para abrir a Gravestone
+ui.gravestone_death_path:config.admin.skip_respawn_screen=Pular a tela de renascimento
+
+## Death Knowledge
+ui.gravestone_death_path:death_knowledge.title=Conhecimento da Morte
+ui.gravestone_death_path:death_knowledge.remaining_points=Pontos restantes: %1
+ui.gravestone_death_path:death_knowledge.status.experience=[%1] - %2% Salvar Xp
+ui.gravestone_death_path:death_knowledge.status.teleport_key=[%1] - %2% Pegar Chave Encantada
+ui.gravestone_death_path:death_knowledge.experience=Salvar Xp\n§7[%1]
+ui.gravestone_death_path:death_knowledge.teleport_key=Pegar Chave Encantada\n§7[%1]
+
+ui.warn.grssavestone_death_path:no_point_remaining=§cYou have no point to use.
+
+## Key Panel
+ui.gravestone_death_path:key.transform_into_tp=Criar Chave de Teleporte
+
+ui.warn.gravestone_death_path:key.no_ender_pearl=§cVocê precisa de uma Pérola do Ender para criar uma Chave de Teleporte.
+ui.warn.gravestone_death_path:key.invalid_hand_key=§cO item em sua mão não é uma chave.
+ui.warn.gravestone_death_path:key.transformated_into_tp=Agora você pode teleportar com essa chave.
+
+
+
+## --------------------------------
+### Description
+## --------------------------------
+
+pack.description=§5Endermen76428§r não escreveu a descrição.

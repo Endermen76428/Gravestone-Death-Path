@@ -1,0 +1,83 @@
+as vezes o scriptEvent do inv da gravestone não executa quando o bloco é removido (não identificado o problema ainda)
+Fazer os blocos serem indestrutiveis, somente o dono pode remover
+fazer uma config pra poder teleportar pra lapide
+fazer um sistema de upgrade com as lapides igual ao mod original
+fazer um upgrade que faz você dar spawn perto da lapide, sendo tipo nivel 1 384-512m nivel 2 256-384m
+se a config Need Key esta desativa ele nao consome a chave
+Cada tipo de tumulo terá sua chave, a gravestone padrão é a textura atual
+Adicionar config pra remover os buffs
+fazer uma config pra aumentar a quantia de pontos que o tracking vai verificar pra poder cortar caminho
+as gravestone de easter egg não tão dando os itens
+colocar uma config pra não spawnar os easter eggs
+
+--------------
+// o sistema de nivel pelo que vi é de 2 em 2, começa em 2 > 3 > 5 > 7 > 9 > 11
+Upgrade para reduzir o dano recebido (Max 50%) = 5p
+Upgrade para aumentar o ataque (Max 50%) = 5p
+Upgrade para devolver o ataque, tipo o encantamento de Espinhos (Max 50%) = 5p
+Upgrade para aumentar a velocidade (Max 50%) = 5p
+Upgrade de ter change de conseguir uma chave de teleporte em vez de uma normal (Max 100%) = 10p
+Upgrade para guardar mais % de xp (fazer realmente por pontos de xp não niveis) (Max 100%) = 10p
+// Magia/livro tanto faz, contato que seja pego ou craftado usando almas
+Uma magia para vincular itens ao player, igual ao livro vinculo de alma (a grave ignora os itens com essa dynamic/lore)
+Uma magia para resetar os pontos de melhoria
+Uma magia para reperar ferramentas
+Uma magia de desencantamento
+--------------
+
+Gravestone & Death Path v3
+> Additions:
+- Added a personal config panel;
+- Added an admin config panel;
+- Added the teleport key;
+- Added Death Xp;
+- Added Death Knowledge Panel;
+> Changes:
+- Gravestone can no longer be broken by anyone;
+- Gravestone no longer require a specific key to be collected;
+- Gravestone can no longer be pushed by pistons;
+- If the tracking passes through a place in the past, it will cut off the path;
+> Fixed:
+- Fixed an issue where the death counter wouldn't increase if there were no items in the inventory;
+- Fixed the bass sound;
+> Removed:
+- Removed Reaper and Gravestone spawn egg from creative inventory.
+
+Gravestone & Death Path v2
+> Additions:
+Added 16 new gravestones;
+Added 8 Easter Eggs - (Total 32 Gravestones);
+Added a teleport system and a config for it;
+Added compatibility with Vibrant Visual;
+Added compatibility with Bedrock Awakening v0.1
+Separate the gravestone into 3 categories;
+A particle appears in the right gravestone when using the wrong key;
+> Changes:
+New End Gravestone texture;
+New Reaper texture;
+New sound to the Gravestone;
+> Fixed:
+Fixed End Gravestone sound;
+Fixed some errors with the Gravestone Key;
+Fixed gravestone don't disappear after being collected.
+
+Gravestone & Death Path v2
+> Adições:
+- Adicionado 16 novas Gravestones;
+- Adicionado 8 Easter Eggs - (Total 32 Gravestones);
+- Adicionado um sistema de teleporte e configração para isso;
+- Adicionado compatibilidade com Vibrant Visual;
+- Adicionado compatibilidade com Bedrock Awakening v0.1
+- Separado as gravestones em 3 categorias;
+- Uma particula aparece na gravestone certa quando usa uma chave errada;
+> Mudança:
+- Nova textura na Gravestone do Fim;
+- Nova textura para o Ceifador;
+- Novo som para a gravestone;
+> Arrumado:
+- Arrumado o som da Gravestone do Fim;
+- Arrumado alguns erros com a Chave da Gravestone;
+- Arrumado a gravestone não sumir ao ser coletada.
+
+mklink /J "%AppData%\Minecraft Bedrock\Users\Shared\games\com.mojang\development_behavior_packs\Gravestone Death Path (Addon)" "C:\Backup\0 - MCPEDL\0 - GITHUB\Gravestone Death Path\code\1 - BP"
+mklink /J "%AppData%\Minecraft Bedrock\Users\Shared\games\com.mojang\development_resource_packs\Gravestone Death Path (Texture)" "C:\Backup\0 - MCPEDL\0 - GITHUB\Gravestone Death Path\code\2 - RP"

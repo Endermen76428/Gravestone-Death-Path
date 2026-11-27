@@ -1,2 +1,0 @@
-import "./tracking"
-import "./locator"

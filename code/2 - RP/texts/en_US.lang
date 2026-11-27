@@ -1,0 +1,251 @@
+## --------------------------------
+### Block
+## --------------------------------
+
+## Akinari
+tile.gravestone_death_path:gravestone_akinari_dummy.name=Gravestone with Akinari Head
+tile.gravestone_death_path:gravestone_end_akinari_dummy.name=The End Gravestone with Akinari Head
+tile.gravestone_death_path:gravestone_nether_akinari_dummy.name=Nether Gravestone with Akinari Head
+## Akirasky2663
+tile.gravestone_death_path:gravestone_akirasky2663.name=Gravestone with Akirasky2663 Head
+tile.gravestone_death_path:gravestone_end_akirasky2663.name=The End Gravestone with Akirasky2663 Head
+tile.gravestone_death_path:gravestone_nether_akirasky2663.name=Nether Gravestone with Akirasky2663 Head
+## Aniralacradx
+tile.gravestone_death_path:gravestone_aniralacradx.name=Gravestone with Aniralacradx Head
+tile.gravestone_death_path:gravestone_end_aniralacradx.name=The End Gravestone with Aniralacradx Head
+tile.gravestone_death_path:gravestone_nether_aniralacradx.name=Nether Gravestone with Aniralacradx Head
+## Blaze
+tile.gravestone_death_path:gravestone_blaze.name=Gravestone with Blaze Head
+tile.gravestone_death_path:gravestone_end_blaze.name=The End Gravestone with Blaze Head
+tile.gravestone_death_path:gravestone_nether_blaze.name=Nether Gravestone with Blaze Head
+## Bogged
+tile.gravestone_death_path:gravestone_bogged.name=Gravestone with Bogged Skull
+tile.gravestone_death_path:gravestone_end_bogged.name=The End Gravestone with Bogged Skull
+tile.gravestone_death_path:gravestone_nether_bogged.name=Nether Gravestone with Bogged Skull
+## Breeze
+tile.gravestone_death_path:gravestone_breeze.name=Gravestone with Breeze Head
+tile.gravestone_death_path:gravestone_end_breeze.name=The End Gravestone with Breeze Head
+tile.gravestone_death_path:gravestone_nether_breeze.name=Nether Gravestone with Breeze Head
+## Cave Spider
+tile.gravestone_death_path:gravestone_cave_spider.name=Gravestone with Cave Spider Head
+tile.gravestone_death_path:gravestone_end_cave_spider.name=The End Gravestone with Cave Spider Head
+tile.gravestone_death_path:gravestone_nether_cave_spider.name=Nether Gravestone with Cave Spider Head
+## Creaking
+tile.gravestone_death_path:gravestone_creaking.name=Gravestone with Creaking Head
+tile.gravestone_death_path:gravestone_end_creaking.name=The End Gravestone with Creaking Head
+tile.gravestone_death_path:gravestone_nether_creaking.name=Nether Gravestone with Creaking Head
+## Creeper
+tile.gravestone_death_path:gravestone_creeper.name=Gravestone with Creeper Head
+tile.gravestone_death_path:gravestone_end_creeper.name=The End Gravestone with Creeper Head
+tile.gravestone_death_path:gravestone_nether_creeper.name=Nether Gravestone with Creeper Head
+## Default
+tile.gravestone_death_path:gravestone.name=Gravestone
+tile.gravestone_death_path:gravestone_end.name=The End Gravestone
+tile.gravestone_death_path:gravestone_nether.name=Nether Gravestone
+## Enderman
+tile.gravestone_death_path:gravestone_enderman.name=Gravestone with Enderman Head
+tile.gravestone_death_path:gravestone_end_enderman.name=The End Gravestone with Enderman Head
+tile.gravestone_death_path:gravestone_nether_enderman.name=Nether Gravestone with Enderman Head
+## Endermen76428
+tile.gravestone_death_path:gravestone_endermen76428.name=Gravestone with Endermen76428 Head
+tile.gravestone_death_path:gravestone_end_endermen76428.name=The End Gravestone with Endermen76428 Head
+tile.gravestone_death_path:gravestone_nether_endermen76428.name=Nether Gravestone with Endermen76428 Head
+## Evoker
+tile.gravestone_death_path:gravestone_evoker.name=Gravestone with Evoker Head
+tile.gravestone_death_path:gravestone_end_evoker.name=The End Gravestone with Evoker Head
+tile.gravestone_death_path:gravestone_nether_evoker.name=Nether Gravestone with Evoker Head
+## Ghast
+tile.gravestone_death_path:gravestone_ghast.name=Gravestone with Ghast Head
+tile.gravestone_death_path:gravestone_end_ghast.name=The End Gravestone with Ghast Head
+tile.gravestone_death_path:gravestone_nether_ghast.name=Nether Gravestone with Ghast Head
+## Hoglin
+tile.gravestone_death_path:gravestone_hoglin.name=Gravestone with Hoglin Head
+tile.gravestone_death_path:gravestone_end_hoglin.name=The End Gravestone with Hoglin Head
+tile.gravestone_death_path:gravestone_nether_hoglin.name=Nether Gravestone with Hoglin Head
+## Iron Golem
+tile.gravestone_death_path:gravestone_iron_golem.name=Gravestone with Iron Golem Head
+tile.gravestone_death_path:gravestone_end_iron_golem.name=The End Gravestone with Iron Golem Head
+tile.gravestone_death_path:gravestone_nether_iron_golem.name=Nether Gravestone with Iron Golem Head
+## Piglin
+tile.gravestone_death_path:gravestone_piglin.name=Gravestone with Piglin Head
+tile.gravestone_death_path:gravestone_end_piglin.name=The End Gravestone with Piglin Head
+tile.gravestone_death_path:gravestone_nether_piglin.name=Nether Gravestone with Piglin Head
+## Piglin Brute
+tile.gravestone_death_path:gravestone_piglin_brute.name=Gravestone with Piglin Brute Head
+tile.gravestone_death_path:gravestone_end_piglin_brute.name=The End Gravestone with Piglin Brute Head
+tile.gravestone_death_path:gravestone_nether_piglin_brute.name=Nether Gravestone with Piglin Brute Head
+## Player
+tile.gravestone_death_path:gravestone_player.name=Gravestone with Player Head
+tile.gravestone_death_path:gravestone_end_player.name=The End Gravestone with Player Head
+tile.gravestone_death_path:gravestone_nether_player.name=Nether Gravestone with Player Head
+## Ravager
+tile.gravestone_death_path:gravestone_ravager.name=Gravestone with Ravager Head
+tile.gravestone_death_path:gravestone_end_ravager.name=The End Gravestone with Ravager Head
+tile.gravestone_death_path:gravestone_nether_ravager.name=Nether Gravestone with Ravager Head
+## Replay1977
+tile.gravestone_death_path:gravestone_replay1977.name=Gravestone with Replay1977 Head
+tile.gravestone_death_path:gravestone_end_replay1977.name=The End Gravestone with Replay1977 Head
+tile.gravestone_death_path:gravestone_nether_replay1977.name=Nether Gravestone with Replay1977 Head
+## Shulker
+tile.gravestone_death_path:gravestone_shulker.name=Gravestone with Shulker Head
+tile.gravestone_death_path:gravestone_end_shulker.name=The End Gravestone with Shulker Head
+tile.gravestone_death_path:gravestone_nether_shulker.name=Nether Gravestone with Shulker Head
+## Skeleton
+tile.gravestone_death_path:gravestone_skeleton.name=Gravestone with Skeleton Skull
+tile.gravestone_death_path:gravestone_end_skeleton.name=The End Gravestone with Skeleton Skull
+tile.gravestone_death_path:gravestone_nether_skeleton.name=Nether Gravestone with Skeleton Skull
+## Slime
+tile.gravestone_death_path:gravestone_slime.name=Gravestone with Slime Head
+tile.gravestone_death_path:gravestone_end_slime.name=The End Gravestone with Slime Head
+tile.gravestone_death_path:gravestone_nether_slime.name=Nether Gravestone with Slime Head
+## Spider
+tile.gravestone_death_path:gravestone_spider.name=Gravestone with Spider Head
+tile.gravestone_death_path:gravestone_end_spider.name=The End Gravestone with Spider Head
+tile.gravestone_death_path:gravestone_nether_spider.name=Nether Gravestone with Spider Head
+## StrangeTNT27
+tile.gravestone_death_path:gravestone_strangetnt27.name=Gravestone with StrangeTNT27 Head
+tile.gravestone_death_path:gravestone_end_strangetnt27.name=The End Gravestone with StrangeTNT27 Head
+tile.gravestone_death_path:gravestone_nether_strangetnt27.name=Nether Gravestone with StrangeTNT27 Head
+## Stray
+tile.gravestone_death_path:gravestone_stray.name=Gravestone with Stray Skull
+tile.gravestone_death_path:gravestone_end_stray.name=The End Gravestone with Stray Skull
+tile.gravestone_death_path:gravestone_nether_stray.name=Nether Gravestone with Stray Skull
+## Wither Skeleton
+tile.gravestone_death_path:gravestone_wither_skeleton.name=Gravestone with Wither Skeleton Skull
+tile.gravestone_death_path:gravestone_end_wither_skeleton.name=The End Gravestone with Wither Skeleton Skull
+tile.gravestone_death_path:gravestone_nether_wither_skeleton.name=Nether Gravestone with Wither Skeleton Skull
+## Xuxinrui5201314
+tile.gravestone_death_path:gravestone_xuxinrui5201314.name=Gravestone with Xuxinrui5201314 Head
+tile.gravestone_death_path:gravestone_end_xuxinrui5201314.name=The End Gravestone with Xuxinrui5201314 Head
+tile.gravestone_death_path:gravestone_nether_xuxinrui5201314.name=Nether Gravestone with Xuxinrui5201314 Head
+## Xxxx41523
+tile.gravestone_death_path:gravestone_xxxx41523.name=Gravestone with Xxxx41523 Head
+tile.gravestone_death_path:gravestone_end_xxxx41523.name=The End Gravestone with Xxxx41523 Head
+tile.gravestone_death_path:gravestone_nether_xxxx41523.name=Nether Gravestone with Xxxx41523 Head
+## Zombie
+tile.gravestone_death_path:gravestone_zombie.name=Gravestone with Zombie Head
+tile.gravestone_death_path:gravestone_end_zombie.name=The End Gravestone with Zombie Head
+tile.gravestone_death_path:gravestone_nether_zombie.name=Nether Gravestone with Zombie Head
+## Zombie Piglin
+tile.gravestone_death_path:gravestone_zombie_pigman.name=Gravestone with Zombie Piglin Head
+tile.gravestone_death_path:gravestone_end_zombie_pigman.name=The End Gravestone with Zombie Piglin Head
+tile.gravestone_death_path:gravestone_nether_zombie_pigman.name=Nether Gravestone with Zombie Piglin Head
+
+block.warn.gravestone_death_path:gravestone.collect.other_owner=§cThis is not your Gravestone, you cannot open it.
+block.warn.gravestone_death_path:gravestone.already_collected=This Gravestone has already been collected!
+block.warn.gravestone_death_path:collect.key.need_key=§cYou need a Key to open this gravestone.
+block.warn.gravestone_death_path:collect.key.other_gravestone=§cThis key does not belong to this Gravestone!
+
+
+
+## --------------------------------
+### Commands
+## --------------------------------
+
+commands.gravestone_death_path.config=Open personal Settings
+commands.gravestone_death_path.config_adm=Open global Settings
+commands.gravestone_death_path:skill=Open your Death Knowledges
+
+
+
+## --------------------------------
+### Dimensions
+## --------------------------------
+
+dimension.gravestone_death_path:die1=You die at %1 in 
+dimension.gravestone_death_path:die2=Use the key and follow your Death!
+dimension.gravestone_death_path:overworld=<§2Overworld§r> - 
+dimension.gravestone_death_path:nether=<§4Nether§r> - 
+dimension.gravestone_death_path:the_end=<§5The End§r> - 
+
+
+
+## --------------------------------
+### Entity
+## --------------------------------
+
+entity.gravestone_death_path:gravestone_entity.name=Gravestone
+entity.gravestone_death_path:ghost.name=Reaper
+
+
+
+## --------------------------------
+### Items
+## --------------------------------
+
+## Key
+item.gravestone_death_path:gravestone_key=Gravestone Key
+item.gravestone_death_path:gravestone_key_tp=Enchanted Gravestone Key
+
+item.warn.gravestone_death_path:key.corrupted=§cCorrupted Gravestone Key.
+item.warn.gravestone_death_path:key.invalid_owner=§cYou are not the owner of this Key.
+item.warn.gravestone_death_path:key.teleport_disabled=§cTeleport has been disabled in settings.
+
+
+
+## --------------------------------
+### Item Catalog
+## --------------------------------
+
+gravestone_death_path:itemGroup.name.gravestones=Overworld Gravestones
+gravestone_death_path:itemGroup.name.gravestones_nether=Nether Gravestones
+gravestone_death_path:itemGroup.name.gravestones_end=The End Gravestones
+
+
+
+## --------------------------------
+### Notifications
+## --------------------------------
+
+## Death Knowledge
+notification.gravestone_death_path:death_knowledge.incrised=You received §e%1§r experience of death knowledge.
+
+
+
+## --------------------------------
+### UI
+## --------------------------------
+
+## Config
+ui.gravestone_death_path:config.title=Settings
+ui.gravestone_death_path:config.drop_gravestone=Drop Gravestone when collect
+ui.gravestone_death_path:config.path_type=Death Path Type
+ui.gravestone_death_path:config.path_type.random_flame=Random Flame
+ui.gravestone_death_path:config.path_type.random_flame_reaper=Random Flame with Reaper
+ui.gravestone_death_path:config.path_type.dark_flame=Dark Flame
+ui.gravestone_death_path:config.path_type.dark_flame_reaper=Dark Flame with Reaper
+ui.gravestone_death_path:config.path_type.basic_flame=Basic Flame
+ui.gravestone_death_path:config.path_type.basic_flame_reaper=Basic Flame with Reaper
+
+ui.warn.gravestone_death_path:config.saved=Saved Settings
+
+## Config Admin
+ui.gravestone_death_path:config.admin.title=Admin Settings
+ui.gravestone_death_path:config.admin.allow_teleport=Allow Teleport
+ui.gravestone_death_path:config.admin.need_key_to_open=Need a Key to open Gravestone
+ui.gravestone_death_path:config.admin.skip_respawn_screen=Skip Respawn Screen
+
+## Death Knowledge
+ui.gravestone_death_path:death_knowledge.title=Death Knowledge
+ui.gravestone_death_path:death_knowledge.remaining_points=Remaining points: %1
+ui.gravestone_death_path:death_knowledge.status.experience=[%1] - %2% Xp Saved
+ui.gravestone_death_path:death_knowledge.status.teleport_key=[%1] - %2% Get Enchanted Key
+ui.gravestone_death_path:death_knowledge.experience=Xp \n§7[%1]
+ui.gravestone_death_path:death_knowledge.teleport_key=Get Enchanted Key\n§7[%1]
+
+ui.warn.grssavestone_death_path:no_point_remaining=§cYou have no point to use.
+
+## Key Panel
+ui.gravestone_death_path:key.transform_into_tp=Create Teleport Key
+
+ui.warn.gravestone_death_path:key.no_ender_pearl=§cYou need an Ender Pearl in your inventory to create a Teleport Key.
+ui.warn.gravestone_death_path:key.invalid_hand_key=§cThe item in your hand is not a Key.
+ui.warn.gravestone_death_path:key.transformated_into_tp=Now you can teleport with this key.
+
+
+
+## --------------------------------
+### Description
+## --------------------------------
+
+pack.description=§5Endermen76428§r don't write descriptions.

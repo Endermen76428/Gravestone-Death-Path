@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Gravestone & Death Path v3 (Texture)",
+    "description": "pack.description",
+    "uuid": "3815c8ad-9d09-42c9-8605-f5af79ce0469",
+    "min_engine_version": [1, 26, 30],
+    "version": [3, 0, 0],
+    "pack_scope": "world"
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "bb83f207-0bee-427a-bbea-54ccc001c460",
+      "version": [3, 0, 0]
+    }
+  ],
+  "metadata": {
+    "product_type": "addon",
+    "authors": ["§bEndermen76428§r & §5Heartiorn"],
+    "url": "https://www.curseforge.com/minecraft-bedrock/addons/gravestone-death-path"
+  },
+  "capabilities" : ["pbr"],
+  "dependencies": [
+    {
+      "uuid": "ad675e9b-0adf-4be3-900a-1777dd5b932c",
+      "version": [3, 0, 0]
+    }
+  ]
+}
