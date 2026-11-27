@@ -1,6 +1,6 @@
 import { ActionFormData } from "@minecraft/server-ui"
 import { transformIntoTpKey } from "./transformKey"
-import { world, Player } from "@minecraft/server"
+import { Player } from "@minecraft/server"
 
 export function showKeyPanel(player: Player): void {
   new ActionFormData()

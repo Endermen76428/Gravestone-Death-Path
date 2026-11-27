@@ -1,7 +1,7 @@
 import { apiDeathKnowledge, apiDeathKnowledgeXp, maxDeathKnowledgeXp } from "../../lib/player/deathKnowledge"
 import { ActionFormData } from "@minecraft/server-ui"
-import { world, Player } from "@minecraft/server"
-import { apiWarn } from "../../lib/player/warn"
+import { apiWarn } from "../../../0-lib/player/warn"
+import { Player } from "@minecraft/server"
 
 export function showDeathKnowledgePanel(player: Player): void {
   const status = apiDeathKnowledge.getAll(player)
@@ -38,7 +38,7 @@ export function showDeathKnowledgePanel(player: Player): void {
     const currentLv = status[selectedStats]
     if(maxLevelStats[selectedStats] == currentLv) return showDeathKnowledgePanel(player)
 
-    if(status.points == 0) return apiWarn.notify(player, "ui.warn.grssavestone_death_path:no_point_remaining", {type: "action_bar", sound: "warn.gravestone_death_path:bass"})
+    if(status.points == 0) return apiWarn.notify(player, "ui.warn.grssavestone_death_path:no_point_remaining", {type: "actionbar", sound: "warn.gravestone_death_path:bass"})
 
     apiDeathKnowledge.upgradeStatus(player, selectedStats)
     if(status.points > 0) return showDeathKnowledgePanel(player)

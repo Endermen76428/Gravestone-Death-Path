@@ -1,4 +1,4 @@
-import { world, Player, EquipmentSlot, EntityComponentTypes, ItemStack } from "@minecraft/server"
+import { EntityComponentTypes, EquipmentSlot, ItemStack, Player } from "@minecraft/server"
 
 export const equippableSlotsIds = [EquipmentSlot.Head, EquipmentSlot.Chest, EquipmentSlot.Legs, EquipmentSlot.Feet, EquipmentSlot.Offhand ]
 

@@ -1,5 +1,5 @@
 import { apiInventory } from "../lib/player/inventory"
-import { world, system } from "@minecraft/server"
+import { system, world } from "@minecraft/server"
 
 world.beforeEvents.playerInteractWithEntity.subscribe(({target: entity}) => {
   if(entity.typeId == "gravestone_death_path:ghost"){ system.run(() => { entity.triggerEvent("gravestone_death_path:despawn_ghost") }) }

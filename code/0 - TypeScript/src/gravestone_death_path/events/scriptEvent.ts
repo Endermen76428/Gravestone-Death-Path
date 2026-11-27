@@ -1,4 +1,4 @@
-import { world, system, ScriptEventCommandMessageAfterEvent } from "@minecraft/server"
+import { ScriptEventCommandMessageAfterEvent, system, world } from "@minecraft/server"
 import { deathPathLocator } from "../functions/deathPath/locator"
 import { apiInventory } from "../lib/player/inventory"
 

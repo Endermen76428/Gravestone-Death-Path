@@ -1,4 +1,4 @@
-import { world, system, CommandPermissionLevel, CustomCommandStatus, Player, CustomCommandParamType } from "@minecraft/server"
+import { CommandPermissionLevel, CustomCommandParamType, CustomCommandStatus, Player, system, world } from "@minecraft/server"
 import { showDeathKnowledgePanel } from "../functions/deathKnowledge/statusPanel"
 import { showConfigAdminPanel, showConfigPanel } from "../functions/config"
 import { deathKnowledgeXpHandler } from "../functions/commands/deathXp"
@@ -6,13 +6,13 @@ import { collectGravestone } from "../functions/gravestone/collect"
 import { deathPathLocator } from "../functions/deathPath/locator"
 import { apiDeathKnowledge } from "../lib/player/deathKnowledge"
 import { teleportToGravestone } from "../functions/key/teleport"
+import { apiScoreboard } from "../../0-lib/math/scoreboard"
 import { showKeyPanel } from "../functions/key/keyPanel"
-import { apiScoreboard } from "../lib/math/scoreboard"
 import { apiConfigAdmin } from "../lib/configAdmin"
 import { apiTracking } from "../lib/math/tracking"
+import { apiWarn } from "../../0-lib/player/warn"
 import { apiConfig } from "../lib/player/config"
 import { apiTimer } from "../lib/player/timer"
-import { apiWarn } from "../lib/player/warn"
 
 system.run(() => { world.gameRules.keepInventory = true })
 export let usedOnBlock = false

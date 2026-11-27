@@ -1,5 +1,5 @@
-import { apiNumber } from "../math/number";
-import { apiWarn } from "./warn";
+import { apiNumbers } from "../../../0-lib/math/numbers";
+import { apiWarn } from "../../../0-lib/player/warn";
 export const maxDeathKnowledgeXp = 525;
 const maxPoints = (maxDeathKnowledgeXp / 15 + 5);
 const cachePlayerDeathKnowledge = new Map();
@@ -40,7 +40,7 @@ export const apiDeathKnowledge = new class ApiDeathKnowledge {
 export const apiDeathKnowledgeXp = new class ApiDeathKnowledgeXp {
     increaseXp(player, amount) {
         const currentXp = apiDeathKnowledge.get(player, "xp");
-        const newXp = apiNumber.clamp(currentXp + amount, 0, maxDeathKnowledgeXp);
+        const newXp = apiNumbers.clamp(currentXp + amount, 0, maxDeathKnowledgeXp);
         this.setXp(player, newXp);
         return newXp;
     }
@@ -49,7 +49,7 @@ export const apiDeathKnowledgeXp = new class ApiDeathKnowledgeXp {
         const used = cache.upXp + cache.upTpKey;
         if (value > 0 && used >= cache.lv)
             return;
-        const points = apiNumber.clamp(cache.points + value, 0, maxPoints - used);
+        const points = apiNumbers.clamp(cache.points + value, 0, maxPoints - used);
         player.setDynamicProperty("dk:points", points);
         if (value > 0)
             apiWarn.notify(player, { translate: "notification.gravestone_death_path:death_knowledge.incrised", with: [(points - cache.points).toString()] });

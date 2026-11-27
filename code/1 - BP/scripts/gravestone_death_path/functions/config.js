@@ -1,8 +1,8 @@
 import { ModalFormData } from "@minecraft/server-ui";
 import { apiConfigAdmin } from "../lib/configAdmin";
+import { apiWarn } from "../../0-lib/player/warn";
 import { world } from "@minecraft/server";
 import { apiConfig } from "../lib/player/config";
-import { apiWarn } from "../lib/player/warn";
 export function showConfigPanel(player) {
     const config = apiConfig.getAll(player);
     new ModalFormData()
@@ -14,7 +14,7 @@ export function showConfigPanel(player) {
         if (canceled || formValues == undefined)
             return;
         apiConfig.update(player, formValues);
-        apiWarn.notify(player, "ui.warn.gravestone_death_path:config.saved", { type: "action_bar", sound: "warn.gravestone_death_path:levelup" });
+        apiWarn.notify(player, "ui.warn.gravestone_death_path:config.saved", { type: "actionbar", sound: "warn.gravestone_death_path:levelup" });
     });
 }
 const deathPathTypes = [
@@ -36,6 +36,6 @@ export function showConfigAdminPanel(player) {
             return;
         world.gameRules.doImmediateRespawn = (r => typeof r != "boolean" ? false : r)(formValues[2]);
         apiConfigAdmin.update(formValues);
-        apiWarn.notify(player, "ui.warn.gravestone_death_path:config.saved", { type: "action_bar", sound: "warn.gravestone_death_path:levelup" });
+        apiWarn.notify(player, "ui.warn.gravestone_death_path:config.saved", { type: "actionbar", sound: "warn.gravestone_death_path:levelup" });
     });
 }

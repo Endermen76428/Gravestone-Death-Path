@@ -1,4 +1,4 @@
-import { EquipmentSlot, EntityComponentTypes } from "@minecraft/server";
+import { EntityComponentTypes, EquipmentSlot } from "@minecraft/server";
 export const equippableSlotsIds = [EquipmentSlot.Head, EquipmentSlot.Chest, EquipmentSlot.Legs, EquipmentSlot.Feet, EquipmentSlot.Offhand];
 export const gravestoneSaveItens = new class GravestoneSaveItens {
     getInventory(player) {

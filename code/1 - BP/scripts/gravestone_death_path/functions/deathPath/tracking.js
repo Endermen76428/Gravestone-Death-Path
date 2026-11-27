@@ -1,4 +1,4 @@
-import { world, system } from "@minecraft/server";
+import { system, world } from "@minecraft/server";
 import { apiTracking } from "../../lib/math/tracking";
 import { apiConfig } from "../../lib/player/config";
 const cacheLastPos = new Map();

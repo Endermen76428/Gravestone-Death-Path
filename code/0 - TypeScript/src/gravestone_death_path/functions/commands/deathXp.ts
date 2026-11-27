@@ -1,6 +1,6 @@
 import { apiDeathKnowledgeXp, maxDeathKnowledgeXp } from "../../lib/player/deathKnowledge"
-import { world, Player } from "@minecraft/server"
-import { apiNumber } from "../../lib/math/number"
+import { apiNumbers } from "../../../0-lib/math/numbers"
+import { Player } from "@minecraft/server"
 
 export function deathKnowledgeXpHandler(player: Player, type: string, value: number): void {
   const exe = deathKnowledgeExecutions[type]
@@ -9,14 +9,14 @@ export function deathKnowledgeXpHandler(player: Player, type: string, value: num
 
 const deathKnowledgeExecutions: { [key: string]: (player: Player, value: number) => void } = {
   "give": (player, value) => {
-    apiDeathKnowledgeXp.increaseXp(player, apiNumber.clamp(value, -maxDeathKnowledgeXp, maxDeathKnowledgeXp))
+    apiDeathKnowledgeXp.increaseXp(player, apiNumbers.clamp(value, -maxDeathKnowledgeXp, maxDeathKnowledgeXp))
   },
 
   "set": (player, value) => {
-    apiDeathKnowledgeXp.setXp(player, apiNumber.clamp(value, 0, maxDeathKnowledgeXp))
+    apiDeathKnowledgeXp.setXp(player, apiNumbers.clamp(value, 0, maxDeathKnowledgeXp))
   },
 
   "remove": (player, value) => {
-    apiDeathKnowledgeXp.increaseXp(player, -apiNumber.clamp(value, -maxDeathKnowledgeXp, maxDeathKnowledgeXp))
+    apiDeathKnowledgeXp.increaseXp(player, -apiNumbers.clamp(value, -maxDeathKnowledgeXp, maxDeathKnowledgeXp))
   }
 }

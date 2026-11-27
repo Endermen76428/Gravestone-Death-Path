@@ -1,6 +1,6 @@
 import { world } from "@minecraft/server";
 import { apiConfigAdmin } from "../../lib/configAdmin";
-import { apiWarn } from "../../lib/player/warn";
+import { apiWarn } from "../../../0-lib/player/warn";
 export function teleportToGravestone(player, item) {
     if (!apiConfigAdmin.get("teleport"))
         return apiWarn.notify(player, "item.warn.gravestone_death_path:key.teleport_disabled", { sound: "warn.gravestone_death_path:break" });

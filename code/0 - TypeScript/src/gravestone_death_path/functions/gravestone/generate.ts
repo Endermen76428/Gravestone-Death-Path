@@ -1,4 +1,4 @@
-import { world, Block, BlockPermutation, BlockTypes, Player, Vector3 } from "@minecraft/server"
+import { Block, BlockPermutation, BlockTypes, Player, Vector3 } from "@minecraft/server"
 
 export const gravestoneGenerateTomb = new class GravestoneGenerateTomb {
   generate(player: Player, damageId?: string): Block | undefined {

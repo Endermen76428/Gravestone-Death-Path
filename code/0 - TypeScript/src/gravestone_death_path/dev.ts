@@ -1,6 +1,6 @@
 import { world, system, Player, ItemStack, EquipmentSlot } from "@minecraft/server"
 import { apiDeathKnowledge, apiDeathKnowledgeXp, maxDeathKnowledgeXp } from "./lib/player/deathKnowledge"
-import { apiNumber } from "./lib/math/number"
+import { apiNumbers } from "../0-lib/math/numbers"
 import { ActionFormData } from "@minecraft/server-ui"
 
 world.afterEvents.itemUse.subscribe(({itemStack: item, source: entity}) => {

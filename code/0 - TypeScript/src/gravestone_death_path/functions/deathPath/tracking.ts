@@ -1,4 +1,4 @@
-import { world, system, Player, Vector3 } from "@minecraft/server"
+import { Player, system, Vector3, world } from "@minecraft/server"
 import { apiTracking } from "../../lib/math/tracking"
 import { apiConfig } from "../../lib/player/config"
 

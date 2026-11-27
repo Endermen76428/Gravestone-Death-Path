@@ -7,14 +7,19 @@ export const apiScoreboard = new class ApiScoreboard {
     return world.scoreboard.addObjective(scoreId, displayName)
   }
 
-  removeObj(scoreId: string | ScoreboardObjective): boolean {
-    return world.scoreboard.removeObjective(scoreId)
-  }
-
   getObj(scoreId: string): ScoreboardObjective {
     const score = world.scoreboard.getObjective(scoreId)
     if(!score) return this.addObj(scoreId)
     return score
+  }
+
+  removeObj(scoreId: string | ScoreboardObjective, recreate = false): boolean {
+    const result = world.scoreboard.removeObjective(scoreId)
+    if(recreate){
+      if(typeof scoreId == "string") world.scoreboard.addObjective(scoreId)
+      else world.scoreboard.addObjective(scoreId.id)
+    }
+    return result
   }
 
   hasObj(scoreId: string): boolean {
@@ -22,12 +27,12 @@ export const apiScoreboard = new class ApiScoreboard {
   }
 
   // Score
-  addScore(scoreId: string | ScoreboardObjective, participant: Participant, amount = 0): number {
+  addScore(scoreId: string | ScoreboardObjective, participant: TParticipant, amount = 0): number {
     const score = typeof scoreId == "string" ? this.getObj(scoreId) : scoreId
     return score.addScore(participant, amount)
   }
 
-  getScore(scoreId: string | ScoreboardObjective, participant: Participant): number {
+  getScore(scoreId: string | ScoreboardObjective, participant: TParticipant): number {
     const score = typeof scoreId == "string" ? this.getObj(scoreId) : scoreId
     if(!this.hasParticipant(scoreId, participant)) return this.addScore(scoreId, participant)
 
@@ -37,17 +42,22 @@ export const apiScoreboard = new class ApiScoreboard {
     return value
   }
 
-  setScore(scoreId: string | ScoreboardObjective, participant: Participant, amount?: number): void {
+  setScore(scoreId: string | ScoreboardObjective, participant: TParticipant, amount?: number): void {
     const score = typeof scoreId == "string" ? this.getObj(scoreId) : scoreId
     if(amount == undefined){ score.removeParticipant(participant); return }
 
     score.setScore(participant, amount)
   }
 
-  hasParticipant(scoreId: string | ScoreboardObjective, participant: Participant): boolean {
+  hasParticipant(scoreId: string | ScoreboardObjective, participant: TParticipant): boolean {
     const score = typeof scoreId == "string" ? this.getObj(scoreId) : scoreId
     return score.hasParticipant(participant)
   }
+
+  removeParticipant(scoreId: string | ScoreboardObjective, participant: TParticipant): boolean {
+    const score = typeof scoreId == "string" ? this.getObj(scoreId) : scoreId
+    return score.removeParticipant(participant)
+  }
 }
 
-type Participant = string | Entity | ScoreboardIdentity
+type TParticipant = string | Entity | ScoreboardIdentity

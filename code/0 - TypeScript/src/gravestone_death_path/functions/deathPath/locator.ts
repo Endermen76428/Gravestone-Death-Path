@@ -1,4 +1,4 @@
-import { world, system, ItemStack, Block, Dimension, Player, Vector3, Entity } from "@minecraft/server"
+import { Block, Dimension, Entity, ItemStack, Player, system, Vector3 } from "@minecraft/server"
 import { apiItemDynamic, DeathPathPoint } from "../../lib/item/dynamic"
 import { apiConfig } from "../../lib/player/config"
 import { apiVec3 } from "../../lib/math/vector"

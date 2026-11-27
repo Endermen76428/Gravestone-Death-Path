@@ -1,4 +1,4 @@
-import { world, system } from "@minecraft/server";
+import { system, world } from "@minecraft/server";
 import { deathPathLocator } from "../functions/deathPath/locator";
 import { apiInventory } from "../lib/player/inventory";
 const denyList = new Map();

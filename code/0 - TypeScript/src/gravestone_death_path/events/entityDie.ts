@@ -1,10 +1,10 @@
-import { world, Player, ItemStack, EntityComponentTypes } from "@minecraft/server"
+import { EntityComponentTypes, ItemStack, Player, world } from "@minecraft/server"
 import { gravestoneGenerateTomb } from "../functions/gravestone/generate"
 import { gravestoneSaveItens } from "../functions/gravestone/saveItens"
 import { apiDeathKnowledge } from "../lib/player/deathKnowledge"
-import { apiScoreboard } from "../lib/math/scoreboard"
+import { apiScoreboard } from "../../0-lib/math/scoreboard"
 import { apiItemDynamic } from "../lib/item/dynamic"
-import { apiWarn } from "../lib/player/warn"
+import { apiWarn } from "../../0-lib/player/warn"
 
 world.afterEvents.entityDie.subscribe(({deadEntity: player, damageSource}) => {
   if(player.typeId != "minecraft:player" || !(player instanceof Player)) return

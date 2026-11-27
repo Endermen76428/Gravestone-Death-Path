@@ -1,7 +1,7 @@
-import { world, ItemStack, EntityComponentTypes, Player } from "@minecraft/server"
+import { EntityComponentTypes, ItemStack, Player } from "@minecraft/server"
 import { apiInventory } from "../../lib/player/inventory"
 import { apiConfigAdmin } from "../../lib/configAdmin"
-import { apiWarn } from "../../lib/player/warn"
+import { apiWarn } from "../../../0-lib/player/warn"
 
 export function transformIntoTpKey(player: Player): void {
   if(!apiConfigAdmin.get("teleport")) return apiWarn.notify(player, "item.warn.gravestone_death_path:key.teleport_disabled", {sound: "warn.gravestone_death_path:break"})
